@@ -73,6 +73,11 @@ The class tag is 0xFFFF + schema + name the first time, then `index | 0x8000`.
 The layout was checked by parsing real Jw_cad 7.00 files completely. A 1:50 dimension 4.8 units long carries the
 value 240, which confirms that coordinates are paper mm. The output has been opened in DRA-CAD.
 
+## License
+
+MIT. See [LICENSE](LICENSE). The JWW writer is an independent implementation. It only follows the file layout
+documented by LibreCAD's jwwlib and contains no jwwlib code.
+
 ## Development notes
 
 - Each PC keeps a local clone in `C:\Users\<user>\git\RhinoPlugin_ExportImportJWW`. Do not put the `.git` folder in
